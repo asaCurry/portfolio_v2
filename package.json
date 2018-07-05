@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site for Asa Curry",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server.js -e js,pug",
+    "start": "node server.js"
+  },
+  "author": "Asa Curry",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.1.7",
+    "pug": "^2.0.3"
+  }
+}
