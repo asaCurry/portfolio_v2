@@ -1,0 +1,19 @@
+:root {
+  --main-color: ;
+}
+
+/* navigtion */
+
+.nav-wrapper {}
+
+/* hero */
+
+.hero-outer-wrapper {
+  background: linear-gradient(to right, rgba(155, 155, 155, 1), rgba(155, 155, 155, 0))
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: blue;
+}
