@@ -10,15 +10,12 @@ app.set('view engine', 'pug');
 
 app.use(express.static(__dirname + '/public'));
 
-
 // Views
 app.get('/', function (req, res) {
-
-res.render('layout', {
-
+  res.render('layout',  {
+      header: 'Root'
   });
 });
-
 
 app.get('/home', function (req, res) {
 
@@ -26,7 +23,8 @@ app.get('/home', function (req, res) {
 
     })
 });
-// start up the server
+
+// server start
 app.listen(3000, function () {
     console.log('Listening on http://localhost:3000');
 });
